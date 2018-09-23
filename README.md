@@ -4,7 +4,7 @@ Cockpit: https://github.com/agentejo/cockpit
 
 Showcase:
 
-![Groups Management UI Addon for Cockpit](https://raw.githubusercontent.com/serjoscha87/cockpit_GROUPS/7d6c2f807602186f785ffdb7b064fce62dbffc06/cockpit_groups.jpg)
+![query_tester_for_cockpit](https://github.com/serjoscha87/cockpit_ApiTester/blob/c18fc65551723fea239dc2dc1823a80ce664e5f4/showcase.gif)
 
 ## Installation
 
