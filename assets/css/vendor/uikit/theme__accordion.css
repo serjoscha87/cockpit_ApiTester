@@ -1,0 +1,54 @@
+.uk-accordion {
+    padding: 0;
+    list-style: none
+}
+
+.uk-accordion>:nth-child(n+2) {
+    margin-top: 20px
+}
+
+.uk-accordion-title {
+    display: block;
+    font-size: 17px;
+    line-height: 1.4;
+    color: #222;
+    overflow: hidden
+}
+
+.uk-accordion-title::before {
+    content: "";
+    width: 1.4em;
+    height: 1.4em;
+    margin-left: 10px;
+    float: right;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2213%22%20height%3D%2213%22%20viewBox%3D%220%200%2013%2013%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20fill%3D%22%23666%22%20width%3D%2213%22%20height%3D%221%22%20x%3D%220%22%20y%3D%226%22%20%2F%3E%0A%20%20%20%20%3Crect%20fill%3D%22%23666%22%20width%3D%221%22%20height%3D%2213%22%20x%3D%226%22%20y%3D%220%22%20%2F%3E%0A%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: 50% 50%
+}
+
+.uk-open>.uk-accordion-title::before {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2213%22%20height%3D%2213%22%20viewBox%3D%220%200%2013%2013%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20fill%3D%22%23666%22%20width%3D%2213%22%20height%3D%221%22%20x%3D%220%22%20y%3D%226%22%20%2F%3E%0A%3C%2Fsvg%3E")
+}
+
+.uk-accordion-title:hover,.uk-accordion-title:focus {
+    color: #666;
+    text-decoration: none;
+    outline: none
+}
+
+.uk-accordion-content {
+    margin-top: 20px
+}
+
+.uk-accordion-content::before,.uk-accordion-content::after {
+    content: "";
+    display: table
+}
+
+.uk-accordion-content::after {
+    clear: both
+}
+
+.uk-accordion-content>:last-child {
+    margin-bottom: 0
+}
