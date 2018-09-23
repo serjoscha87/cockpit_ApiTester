@@ -11,5 +11,6 @@ Showcase:
 just checkout this repository to your cockpit addons folder. 
 
 ## Other projects according to cockpit
-https://github.com/serjoscha87/cockpit_GROUPS/
-https://github.com/serjoscha87/cockpit_GroupBoundAssets
+  - https://github.com/serjoscha87/cockpit_GROUPS/
+  - https://github.com/serjoscha87/cockpit_GroupBoundAssets
+
