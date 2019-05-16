@@ -15,7 +15,7 @@ class ApiTester extends \Cockpit\AuthController {
       unset($account["password"]);
       
       $querylog = $this->storage->find("cockpit/querylog", [
-         'sort' => ['_created' => '-1']
+         'sort' => ['_created' => -1]
       ])->toArray(); // queries from db
       
       return $this->render('apitester:views/index.php', compact('account', 'querylog'));
@@ -51,7 +51,7 @@ class ApiTester extends \Cockpit\AuthController {
          $this->app->storage->remove("cockpit/querylog", ["_id" => $entry]);
          
          return $querylog = $this->storage->find("cockpit/querylog", [
-            'sort' => ['_created' => '-1']
+            'sort' => ['_created' => -1]
          ])->toArray();
       }
 
