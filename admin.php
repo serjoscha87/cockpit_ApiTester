@@ -6,7 +6,7 @@ require_once(__DIR__ . '/Controller/ApiTester.php');
  */
 $app['app.assets.base'] = array_merge($app['app.assets.base'], [
     'apitester:assets/css/vendor/uikit/theme__accordion.css',
-    '/assets/lib/uikit/js/components/accordion.min.js',
+    'assets:lib/uikit/js/components/accordion.min.js',
     'apitester:assets/css/apitester.css'
 ]);
 
